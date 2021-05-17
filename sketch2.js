@@ -117,8 +117,8 @@ function draw() {
                 let indexOfRed = (x + y * greenUfoVideo.width) * 4;
                 //greenUfoVideo.pixels[indexOfRed] = random(100);
                 //greenUfoVideo.pixels[indexOfRed + 1] = random(100);
-                //greenUfoVideo.pixels[indexOfRed + 2] = random(100);
-                greenUfoVideo.pixels[indexOfRed + 3] = random(100);
+                greenUfoVideo.pixels[indexOfRed + 2] = random(100);
+                greenUfoVideo.pixels[indexOfRed + 3] = random(60, 100);
               }
             }
             greenUfoVideo.updatePixels(); 
