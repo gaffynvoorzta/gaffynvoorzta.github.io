@@ -1,8 +1,8 @@
 let song, amp;
 
 function preload() {
-  //song = loadSound('./squiff-test2.wav');
-  song = loadSound('alanwallwork.info/squiff/squiff-test.wav');
+  song = loadSound('./squiff-test2.wav');
+  //song = loadSound('alanwallwork.info/squiff/squiff-test.wav');
 }
 
 function setup() {
