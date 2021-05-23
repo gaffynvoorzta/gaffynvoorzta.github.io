@@ -17,10 +17,10 @@ let bounce = [];
 let bo, cu, fu, shi;
 
 function preload() {
-  bo = loadSound('./wavs/bo.wav');
-  cu = loadSound('./wavs/cu.wav');
-  fu = loadSound('./wavs/fu.wav');
-  shi = loadSound('./wavs/shi.wav');
+  bo = loadSound('./bo.wav');
+  cu = loadSound('./cu.wav');
+  fu = loadSound('./fu.wav');
+  shi = loadSound('./shi.wav');
 }
 
 function setup() {
