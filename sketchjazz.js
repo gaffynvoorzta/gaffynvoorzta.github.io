@@ -1,5 +1,5 @@
 // TODO: Set up how many balls we want
-let ballCount = 100;
+let ballCount = 1000;
 // TODO: Set up x and y position variable to equal an empty array
 let x = [];
 let y = [];
